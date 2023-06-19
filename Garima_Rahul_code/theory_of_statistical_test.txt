@@ -1,0 +1,26 @@
+
+Title: Statistical Methods Explained: Pearson Test, CART Regression, KS Test, and PCA
+
+Pearson Test:
+The Pearson test, also known as Pearson's correlation coefficient, is a statistical method used to measure the strength and direction of the linear relationship between two continuous variables. It determines the degree to which the variables are associated and provides a correlation coefficient (r) value that ranges from -1 to +1. A value of -1 indicates a perfect negative correlation, +1 indicates a perfect positive correlation, and 0 indicates no correlation.
+The Pearson test relies on the assumptions of linearity, normality, and homoscedasticity. It is widely used in various fields such as social sciences, finance, and data analysis to assess the relationship between variables. The test involves calculating the covariance between two variables and dividing it by the product of their standard deviations.
+
+CART Regression:
+CART (Classification and Regression Trees) regression is a predictive modeling technique that creates a decision tree-based model to predict continuous target variables. It is a non-parametric method that recursively partitions the data based on predictor variables, creating binary splits that optimize the homogeneity of the target variable within each partition.
+The CART algorithm starts with the entire dataset and selects the best predictor variable and split point based on a criterion such as minimizing the sum of squared errors or maximizing the information gain. It continues to split the data into smaller subsets until a stopping criterion is met. The resulting tree can be used for prediction by traversing the tree based on the values of the predictor variables.
+
+CART regression is often used in machine learning, data mining, and decision support systems. It is known for its simplicity, interpretability, and ability to handle both numerical and categorical predictor variables.
+
+KS Test (Kolmogorov-Smirnov Test):
+The KS test is a nonparametric statistical test used to compare two probability distributions or test if a sample follows a specific distribution. It assesses whether two samples significantly differ from each other or if a sample significantly deviates from a theoretical distribution.
+The KS test measures the maximum difference (D) between the cumulative distribution functions (CDFs) of the two samples or between the CDF of the sample and the theoretical distribution. It produces a test statistic (D) and a p-value, which indicates the level of significance at which the null hypothesis can be rejected.
+
+The KS test can be one-tailed or two-tailed, depending on the alternative hypothesis being tested. In a one-tailed KS test, the alternative hypothesis specifies the direction of the difference or deviation, while in a two-tailed test, it merely states that a difference or deviation exists.
+
+Principal Component Analysis (PCA):
+Principal Component Analysis (PCA) is a dimensionality reduction technique used to transform a dataset with a large number of variables into a smaller set of uncorrelated variables called principal components. It identifies the patterns and structure in high-dimensional data, while retaining most of the relevant information.
+PCA works by calculating the eigenvectors and eigenvalues of the covariance matrix or correlation matrix of the dataset. The eigenvectors represent the principal components, and the corresponding eigenvalues indicate the amount of variance explained by each component. By selecting the top-k principal components that explain the majority of the variance, PCA enables data compression and simplifies subsequent analysis.
+
+PCA finds applications in various fields, including image processing, genetics, finance, and data visualization. It helps in identifying the most important variables, reducing noise and redundancy, and visualizing high-dimensional data in lower dimensions.
+
+In conclusion, the Pearson test measures the linear relationship between continuous variables, CART regression builds decision tree models for prediction, KS test compares distributions or tests for goodness-of-fit, and PCA reduces dimensionality in multivariate datasets. Understanding these statistical methods can be valuable for data analysis, modeling, and inference in diverse domains.
