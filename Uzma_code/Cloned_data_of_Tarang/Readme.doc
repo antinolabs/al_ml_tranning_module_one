@@ -1,0 +1,19 @@
+Here is the comparision.
+
+
+Features which I considered:
+
+   Target      -  Refrence 
+   
+1. Item Total  -  Quantity, Total
+2. Quantity    -  Item Total, Total, Item Price, Product ID
+3. Item Price  -  Quantity, Month, Total, Item Total
+4. Total       -  Month, Item Total, Quantity, Item Price 
+
+
+         Linear Regression          Desicion Tree             Random Forest
+
+1.       405195                     622554                    406858
+2.       188                        5                         3
+3.       2221                       6                         2
+4.       988682                     98905572                  86415594
